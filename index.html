@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhyuday Krishna | Portfolio & Career Dossier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0284c7;
+      --border: #334155;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+      margin-bottom: 2.5rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--accent);
+      margin-top: 0.25rem;
+    }
+    .contact-links {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .contact-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+    .contact-links a:hover {
+      color: var(--accent);
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.25rem;
+      color: var(--text);
+      border-left: 4px solid var(--accent);
+      padding-left: 0.75rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .card-date {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-weight: normal;
+    }
+    .card-subtitle {
+      color: var(--accent);
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+    }
+    ul {
+      margin-left: 1.25rem;
+      color: var(--text-muted);
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .badge {
+      background-color: var(--border);
+      color: var(--text);
+      padding: 0.35rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Abhyuday Krishna</h1>
+      <div class="subtitle">Software Engineering & Systems Architecture</div>
+      <div class="contact-links">
+        <a href="mailto:contact@example.com">Email</a>
+        <span>•</span>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <span>•</span>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Executive Summary</h2>
+      <div class="card">
+        <p>Results-driven engineer specializing in modern web infrastructure, distributed systems, and scalable backend design. Proven aptitude for building high-performance applications, streamlining software deployment, and turning complex problem domains into maintainable technical architectures.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Core Competencies</h2>
+      <div class="skills-grid">
+        <span class="badge">JavaScript / TypeScript</span>
+        <span class="badge">React & Next.js</span>
+        <span class="badge">Python</span>
+        <span class="badge">Node.js</span>
+        <span class="badge">RESTful APIs & GraphQL</span>
+        <span class="badge">PostgreSQL & MongoDB</span>
+        <span class="badge">Git / GitHub Actions</span>
+        <span class="badge">Vercel & Cloud Deployment</span>
+        <span class="badge">Systems Architecture</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Projects & Experience</h2>
+      <div class="card">
+        <div class="card-title">
+          <span>Software Engineering Projects</span>
+          <span class="card-date">2025 – Present</span>
+        </div>
+        <div class="card-subtitle">Architecture & Development</div>
+        <ul>
+          <li>Designed and implemented full-stack web applications featuring modular APIs and real-time database synchronizations.</li>
+          <li>Optimized frontend assets and build pipelines to achieve high PageSpeed and Core Web Vitals ratings.</li>
+          <li>Structured CI/CD workflows utilizing GitHub Actions for continuous automated testing and deployment.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Abhyuday Krishna. Hosted via GitHub Pages / Vercel.</p>
+    </footer>
+  </div>
+</body>
+</html>
